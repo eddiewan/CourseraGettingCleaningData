@@ -1,7 +1,7 @@
 ## CourseraGettingCleaningData
 
 # Introduction
-This repository contains the codebook for the coursera course 'Getting and Cleaning Data'.
+This repository contains the codebook (run_analysis.R) for the coursera course 'Getting and Cleaning Data'.
 This codebook has been created for the course project.
 Below the steps will contain a deep-dive from the comments in the codebook.
 
@@ -44,3 +44,5 @@ Finally, to create a nice tiny dataframe, the columns are re-ordered and the act
 # Step 5: Second tiny data set with contains the average per subject id and per activity id
 using the aggreagate function, we can easily determine the average of all columns per group. This group contains the subject id and the activity id.
 The remaining dataset contains per subject, per activity one row of data containing the average of the 'mean' and 'standard deviation' columns
+
+The result of the final step is displayed in the file 'tiny_dataset.txt'
