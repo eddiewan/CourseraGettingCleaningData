@@ -1,13 +1,13 @@
 ## Codebook
 This codebook describes the source of the data, a brief description of the run_analysis file and the variables used.
 
-##Source
+## Source
 The data is about Human Activity Recognition using smartphones (from the Machine learning repository).
 The data can be downloaded (zip file) using the link below: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 This link is also included in the run_analysis file (if not yet downloaded).
 More information about the project can be found here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-##Description of run_analysis file
+## Description of run_analysis file
 The run_analysis file contains the R code to perform the following 5 steps:
 1. Merge training and test data set to create one data set
 2. Extract only the measurements relating to the mean and the standard deviation
